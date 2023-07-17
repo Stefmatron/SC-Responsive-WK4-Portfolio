@@ -1,8 +1,28 @@
+@media (max-width: 550px) {
+    body {
+      text-align: center;
+    }
+    h2 { 
+      text-align: center;
+    }
+    img {
+      justify-items: center;
+    }
+    h1 {
+      font-size: 48px;
+    }
+  }
+
 .hero-page {
-    background: lightgrey;
-    max-width: 1440px;
-    max-height: 900px;
+    background:rgb(244, 244, 245);
     flex-shrink: 0;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background:rgb(244, 244, 245);
+    flex-shrink: 0;
+    margin-bottom: 30px;
 }
 
 h4 {
@@ -30,18 +50,52 @@ h2 {
     color: rgba(39, 33, 66, 1);
 }
 button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;;
     font-weight: 500;
     font-size: 18px;
     line-height: normal;
-    color:rgba(255, 255, 255, 1);
-    background-color:rgba(108, 99, 255, 1);
+    color:black;
+    background-color:rgb(215, 215, 218);
     padding: 18px 30px;
     border-radius: 4px;
-    margin: 100px 500px;
     width: 200px;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
-    gap: 10px;
+}
+.projects {
+    text-align: center;
+    margin-bottom: 70px;
+}
 
+.row {
+    margin-top: 35px;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.primary-link {
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    background-color:rgb(215, 215, 218);
+    padding: 18px 30px!important;
+    border-radius: 4px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.homepage-link {
+    text-align: center;
+}
+
+img {
+    border:rgba(39, 33, 66, 1);
+    margin: 10px auto;
 }
